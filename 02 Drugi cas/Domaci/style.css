@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient(red, darkred);
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+tr td, th {
+    text-align: left;
+}
+#centriranje {
+    text-align: center;
+}
+a {
+    color: royalblue;
+}

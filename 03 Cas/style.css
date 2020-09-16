@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1% 1% 2% 1%;
+}
+
+form#prva fieldset {
+    border: 5px groove grey;
+    background-image: url("Slika/geko.png");
+    background-size: 150px;
+    background-position: 99% 50%;
+    background-repeat: no-repeat;
+    background-color: royalblue;
+}
+form#prva legend {
+    font-size: 35px;;
+}
+form#prva label {
+    width: 20%;
+    float: left;
+    height: 20px;
+    margin: 0.5%;
+}
+form#prva input {
+    height: 20px;
+    margin: 0.5%;
+}
+form#prva select {
+    height: 20px;
+    margin: 0.5%;
+}
+form#prva #dugme {
+    height: 25px;
+    width: 70px;
+    margin: 0 0 0 22%;
+}
+form#prva #d {
+    height: 25px;
+    width: 70px;
+}
+
+form#druga {
+    background-image: linear-gradient(blue, orange);
+    color: white;
+}
+form#druga label {
+    padding: 0 0 0 10%;
+    height: 25px;
+}
+form#druga input {
+    height: 20px;
+    margin: 0 0 2% 0;
+}
+form#druga select {
+    height: 25px;
+    margin: 0.5%;
+}
+form#druga p {
+    float: left;
+    margin: 0 10% 0 16%;
+}
+form#druga .b {
+    height: 25px;
+    width: 70px;
+    margin: 1% 0 0 15%;
+}
+textarea {
+    width: 25%;
+    height: 70px;
+}
+

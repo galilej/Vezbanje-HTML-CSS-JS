@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava</title>
+    <style>
+        a {
+            display:block;
+        }
+        label, input, select {
+            padding: 4px;
+            margin: 2px;
+        }
+        label.label {
+            display: block;
+            width: 100%;
+        }
+        select {
+            width: 100%;
+        }
+        input.linije {
+            width: 100%;
+        }
+        #dugme {
+            width: 90px;
+            height: 35px;
+            background-color: orange;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" target="_blank">Nazad na pocetnu</a>
+    <form>
+        <fieldset>
+            <legend>Informacije o kandidatu</legend>
+            <label class="label">Ime:</label>
+            <input type="text" class="linije">
+            <label class="label">Prezime:</label>
+            <input type="text" class="linije">
+        </fieldset>
+        <fieldset>
+            <legend>Informacije o kursu</legend>
+            <label class="label">Mesto:</label>
+            <select>
+                <option>Nis</option>
+                <option>Beograd</option>
+            </select>
+            <label>Kurs:</label>
+            <input type="radio" name="kurs">Javascript
+            <input type="radio" name="kurs">QA 
+        </fieldset>
+        <input type="checkbox" checked>Zelim da se prijavim na newsletter.
+        <br>
+        <input type="button" value="Prijavi se" id="dugme">
+    </form>
+</body>
+</html>

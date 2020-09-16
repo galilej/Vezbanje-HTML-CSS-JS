@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="prva">
+        <fieldset>
+            <legend><b>Form Validation</b></legend>
+            <label>Name: </label>
+            <input type="text">
+            <br>
+            <label>Username: </label>
+            <input type="text">
+            <br>
+            <label>Password: </label>
+            <input type="password">
+            <br>
+            <label>Re-type password: </label>
+            <input type="password">
+            <br>
+            <label>Gender: </label>
+            <input type="radio" name="pol" id="dugmad">Male
+            <input type="radio" name="pol" id="dugmad">Female
+            <input type="radio" name="pol" id="dugmad">Other
+            <br>
+            <label>Programming skills: </label>
+            <input type="checkbox" id="dugmad">Java
+            <input type="checkbox" id="dugmad">Android
+            <input type="checkbox" id="dugmad">Ruby
+            <input type="checkbox" id="dugmad">.Net
+            <br>
+            <label>Contact no: </label>
+            <input type="number">
+            <br>
+            <label>Email: </label>
+            <input type="email">
+            <br>
+            <label>College: </label>
+            <select>
+                <option value="Seclect college">Select college</option>
+                <option>First college</option>
+                <option>Second college</option>
+                <option>Third college</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit" id="dugme">
+            <input type="reset" id="d">
+        </fieldset>
+    </form>
+    <form id="druga">
+        <fieldset>
+            <legend>Login details</legend>
+            <br>
+            <label>Name:</label>
+            <input type="text">
+            <br>
+            <label>Email:</label>
+            <input type="email">
+            <br>
+            <label>Password:</label>
+            <input type="password">
+        </fieldset>
+        <fieldset>
+            <legend>Your feedback</legend>
+            <br>
+            <label>Please check all the emotions that apply to you:</label>
+            <br><br>
+            <input type="checkbox"><p>Angry</p>
+            <br>
+            <input type="checkbox"><p>Sad</p>
+            <br>
+            <input type="checkbox"><p>Happy</p>
+            <br>
+            <input type="checkbox"><p>Ambivalent</p>
+            <br>
+            <label>How satisfied were you with our service?</label>
+            <br><br>
+            <input type="radio" name="service"><p>Very satisfied</p>
+            <br>
+            <input type="radio" name="service"><p>Satisfied</p>
+            <br>
+            <input type="radio" name="service"><p>Didn't care</p>
+            <br>
+            <input type="radio" name="service"><p>Dissatisfied</p>
+            <br>
+            <input type="radio" name="service"><p>Very dissatisfied</p>
+            <br>
+            <label>Further comments:</label>
+            <textarea></textarea>
+            <br>
+        </fieldset>
+        <br>
+        <label>Bio photo:</label>
+        <input type="file" value="Choose File">
+        <br>
+        <label>Location visited:</label>
+        <select>
+            <option>Select location</option>
+            <option>Location 1</option>
+            <option>Location 2</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit" class="b">
+        <br>
+        <input type="reset" value="Reset" class="b">
+    </form>
+</body>
+</html>

@@ -1,0 +1,101 @@
+* {
+    margin:0;
+    padding:0;
+}
+header {
+    background-image: url("Slika/pizza.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+header #d1 {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0 0 0;
+    color: yellow;
+}
+#div2 {
+    position: relative;
+    z-index: 2;
+    background-color: red;
+    width: 200px;
+    top: -70px;
+    left: 300px;
+    color: white;
+}
+#par1 {
+    background-color: saddlebrown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+#par2 {
+    position: relative;
+    z-index: 1;
+    top: 40px;
+    left: 40px;
+    background-color:cadetblue;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    overflow: auto;
+}
+#div3 p {
+    float: left;
+    width: 20%;
+    height: 20px;
+    background-color: cadetblue;
+    border: 1px solid black;
+    padding: 5px 5px;
+    margin: 2px;
+    text-align: center;
+}
+#div3 p:hover {
+    background-color: black;
+    color: cadetblue;
+}
+.topbar ul {
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    background-color: dimgray;
+    position: fixed;
+    top: 10%;
+}
+.topbar ul li {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+}
+.topbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    display: block;
+}
+.topbar ul li a:hover {
+    background-color: dodgerblue;
+}
+.sub {
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    background-color: dimgray;
+    width: 25%;
+    display: none;
+}
+.hoo:hover .sub {
+    display: block;
+}
+#div3 p#par {
+    float: right;
+}

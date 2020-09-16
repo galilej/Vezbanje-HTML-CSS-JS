@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: cornsilk;
+}
+header {
+    background-image: url("Slike/leaf.jpg");
+    background-size: cover;
+    text-align: center;
+    color: beige;
+}
+nav a {
+    display: block;
+    width: 100%;
+    margin: 3.5px;
+    padding: 5px;
+    background-color: thistle;
+    border: 1px solid black;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    background-color: khaki;
+    color: black;
+}
+aside {
+    background-color: green;
+}
+article {
+    background-color: yellowgreen;
+}
+article table {
+    width: 100%;
+}
+article table tr td {
+    text-align: left;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: khaki;
+}
+.ikonice {
+    width: 15px;
+}
+
+/*Mobile*/
+@media only screen and (min-width: 300px){
+    [class*="col-"]{
+	    width: 100%;
+        padding: 15px;
+    }
+    .slike {
+        width: 100px;
+    }
+    footer {
+        position: absolute;
+        bottom: -50px;
+        color: red;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 650px){
+    [class*="col-t-"]{
+        float: left;
+        padding: 15px;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        color: yellowgreen;
+    }
+    .col-t-1{
+        width: 8.33%;
+    }
+    .col-t-2{
+        width: 16.66%;
+    }
+    .col-t-3{
+        width: 25%;
+    }
+    .col-t-4{
+        width: 33.33%;
+    }
+    .col-t-5{
+        width: 41.66%;
+    }
+    .col-t-6{
+        width: 50%;
+    }
+    .col-t-7{
+        width: 58.33%;
+    }
+    .col-t-8{
+        width: 66.66%;
+    }
+    .col-t-9{
+        width: 75%;
+    }
+    .col-t-10{
+        width: 83.33%;
+    }
+    .col-t-11{
+        width: 91.66%;
+    }
+    .col-t-12{
+        width: 100%;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 950px){
+    /*Selektovanje svih elemenata koji imaju prefiks col-*/
+    [class*="col-"]{
+        float: left;
+        padding: 15px;
+    }
+    aside {
+        height: 137px;
+    }
+    .slike {
+        width: 300px;
+    }
+    .col-1{
+        width: 8.33%;
+    }
+    .col-2{
+        width: 16.66%;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-5{
+        width: 41.66%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: 58.33%;
+    }
+    .col-8{
+        width: 66.66%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: 83.33%;
+    }
+    .col-11{
+        width: 91.66%;
+    }
+    .col-12{
+        width: 100%;
+    }
+}

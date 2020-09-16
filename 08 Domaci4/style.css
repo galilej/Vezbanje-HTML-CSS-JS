@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, p {
+    padding: 1%;
+}
+form {
+    display: block;
+    background-color: gainsboro;
+}
+.pretraga {
+    display: block;
+    width: 100%;
+}
+/*Mobile*/
+@media only screen and (max-width: 650px){
+    [class*="col-"]{
+        width: 100%;
+        float:left;
+	    padding: 15px;
+    }
+    form label, input, select, textarea {
+        display: flex;
+        width: 100%;
+    }
+    form input, select {
+        height: 30px;
+    }
+    form .pretraga img {
+        width: 6%;
+    }
+    form input#manji {
+        width: 94%;
+        float: right;
+    }
+    form #dugme {
+        width: auto;
+        height: 35px;
+        border-radius: 10px;
+        background-color: darkgoldenrod;
+    }
+}
+/*Tablet*/
+@media only screen and (min-width: 650px){
+    [class*="col-t-"]{
+        float: left;
+    }
+    form {
+        height: 240px;
+    }
+    form #ime {
+        position: absolute;
+        top: 12%;
+        left: 1%;
+    }
+    form input#veci {
+        position: absolute;
+        top: 12%;
+        left: 20%;
+        width: 75%;
+        height: 25px;
+    }
+    form #pre {
+        position: absolute;
+        top: 15.5%;
+        left: 1%;
+    }
+    form .pretraga img {
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        width: 26px;
+    }
+    form input#manji {
+        position: absolute;
+        top: 15%;
+        left: 23%;
+        height: 25px;
+        width: 33%;
+    }
+    form #zemlja {
+        position: absolute;
+        top: 18.5%;
+        left: 1%;
+    }
+    form select {
+        position: absolute;
+        top: 18%;
+        left: 20%;
+        width: 75%;
+        height: 25px;
+    }
+    form #op {
+        position: absolute;
+        top: 21.5%;
+        left: 1%;
+    }
+    form textarea {
+        position: absolute;
+        top: 21%;
+        left: 20%;
+        width: 75%;
+        height: 90px;
+    }
+    form #dugme {
+        position: absolute;
+        top: 32%;
+        left: 20%;
+        width: 290px;
+        height: 30px;
+        background-color: darkgoldenrod;
+        border-radius: 15px;
+    }
+    .col-t-1{
+        width: 8.33%;
+    }
+    .col-t-2{
+        width: 16.66%;
+    }
+    .col-t-3{
+        width: 25%;
+    }
+    .col-t-4{
+        width: 33.33%;
+    }
+    .col-t-5{
+        width: 41.66%;
+    }
+    .col-t-6{
+        width: 50%;
+    }
+    .col-t-7{
+        width: 58.33%;
+    }
+    .col-t-8{
+        width: 66.66%;
+    }
+    .col-t-9{
+        width: 75%;
+    }
+    .col-t-10{
+        width: 83.33%;
+    }
+    .col-t-11{
+        width: 91.66%;
+    }
+    .col-t-12{
+        width: 100%;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 950px){
+    /*Selektovanje svih elemenata koji imaju prefiks col-*/
+    [class*="col-"]{
+        float: left;
+    }
+    form {
+        padding: 1%;
+        height: 280px;
+    }
+    form #ime {
+        position: absolute;
+        top: 14.5%;
+    }
+    form #pre {
+        position: absolute;
+        top: 18%;
+    }
+    form #zemlja {
+        position: absolute;
+        top: 21.5%;
+    }
+    form #op {
+        position: absolute;
+        top: 25%;
+    }
+    form input#veci {
+        width: 80%;
+        height: 30px;
+        position: absolute;
+        top: 14.5%;
+        left: 18%;
+    }
+    form input#manji {
+        position: absolute;
+        top: 18%;
+        left: 21%;
+        width: 40%;
+        height: 30px;
+    }
+    .pretraga img {
+        width: 26px;
+        position: absolute;
+        top: 18%;
+        left: 18%;
+    }
+    form select {
+        position: absolute;
+        top: 21.5%;
+        left: 18%;
+        height: 30px;
+        width: 80%;
+    }
+    form textarea {
+        position: absolute;
+        top: 25%;
+        left: 18%;
+        width: 80%;
+        height: 90px;
+    }
+    form #dugme {
+        position: absolute;
+        top: 35%;
+        width: 70px;
+        left: 90%;
+        background-color: goldenrod;
+        height: 25px;
+        border-radius: 10px;
+    }
+
+    .col-1{
+        width: 8.33%;
+    }
+    .col-2{
+        width: 16.66%;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-5{
+        width: 41.66%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: 58.33%;
+    }
+    .col-8{
+        width: 66.66%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: 83.33%;
+    }
+    .col-11{
+        width: 91.66%;
+    }
+    .col-12{
+        width: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+p {
+    float: left;
+}
+#prviPar {
+    box-sizing: border-box;
+    width: 300px;
+    height: 60px;
+    margin: 2px 10px 0 5px;
+    padding: 40px 15px 0 65px;
+    background-color: wheat;
+    border: 1px solid black;
+}
+#drugiPar {
+    box-sizing: border-box;
+    background-color: teal;
+    width: 300px;
+    height: 60px;
+    margin: 2px 10px 0 5px;
+    padding: 20px 0 0 100px;
+    border: 5px dotted black;
+}
+a {
+    box-sizing: border-box;
+    display: block;
+    background-color: tomato;
+    width: 200px;
+    height: 70px;
+    clear: left;
+    margin: 40px 0 10px 20px;
+    padding: 40px 10px 0 20px;
+    color: yellow;
+    border: 5px inset greenyellow;
+}
