@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalulator 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name='kalkulator'>
+        <table>
+            <tr>
+                <td colspan="4">
+                    <input type="text" name="ekran" id="ekran" disabled placeholder="0">
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="kalkulator.ekran.value += '1'" class="dugme"></td>
+                <td><input type="button" value="2" onclick="kalkulator.ekran.value += '2'" class="dugme"></td>
+                <td><input type="button" value="3" onclick="kalkulator.ekran.value += '3'" class="dugme"></td>
+                <td><input type="button" value="+" onclick="kalkulator.ekran.value += ' +  '" class='op dugme'></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="kalkulator.ekran.value += '4'" class="dugme"></td>
+                <td><input type="button" value="5" onclick="kalkulator.ekran.value += '5'" class="dugme"></td>
+                <td><input type="button" value="6" onclick="kalkulator.ekran.value += '6'" class="dugme"></td>
+                <td><input type="button" value="-" onclick="kalkulator.ekran.value += ' - '" class="op dugme"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="kalkulator.ekran.value += '7'" class="dugme"></td>
+                <td><input type="button" value="8" onclick="kalkulator.ekran.value += '8'" class="dugme"></td>
+                <td><input type="button" value="9" onclick="kalkulator.ekran.value += '9'" class="dugme"></td>
+                <td><input type="button" value="*" onclick="kalkulator.ekran.value += ' * '" class="op dugme"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="C" onclick="kalkulator.ekran.value = ''" class="dugme"></td>
+                <td><input type="button" value="0" onclick="kalkulator.ekran.value += '0'" class="dugme"></td>
+                <td><input type="button" value="=" onclick="kalkulator.ekran.value = eval(kalkulator.ekran.value)" class="dugme"></td>
+                <td><input type="button" value="/" onclick="kalkulator.ekran.value += ' / '" class="op dugme"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

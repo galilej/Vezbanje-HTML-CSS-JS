@@ -122,7 +122,7 @@ for(let i = 5; i <= 150; i++) {
 console.log(br);
 
 //14.
-console.log('-----------------------');
+console.log('-----');
 n = 1;
 m = 10;
 br = 0;
