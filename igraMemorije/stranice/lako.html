@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igra memorije</title>
+    <link rel="stylesheet" type="text/css" href="../style/lako.css">
+</head>
+<body>
+    <header>
+        <h1>Igra memorije</h1>
+    </header>
+
+    <nav id="navigation">
+        <div class="tezina"><a href="lako.html" id="lako">Lako</a></div>
+        <div class="tezina"><a href="srednje.html" id="srednje">Srednje</a></div>
+        <div class="tezina"><a href="tesko.html" id="tesko">Tesko</a></div>
+        <div class="tezina"><a href="ekspert.html" id="ekspert">Ekspert</a></div>
+    </nav>
+    
+    <form id="forma">
+        <label>Korisnicsko ime:</label>
+        <input id="unos" placeholder="Unesite ime">
+        <button id="dugme">Enter</button>
+    </form>
+
+    <div id="tajmer">00:00:00</div>
+
+    <section class="igrica">
+        <div class="kartice" data-framework="ajkula">
+            <img src="../background/cards/ajkula.jpg" alt="ajkula" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="ajkula">
+            <img src="../background/cards/ajkula.jpg" alt="ajkula" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="aligator">
+            <img src="../background/cards/aligator.jpg" alt="aligator" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="aligator">
+            <img src="../background/cards/aligator.jpg" alt="aligator" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="dabar">
+            <img src="../background/cards/dabar.jpg" alt="dabar" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="dabar">
+            <img src="../background/cards/dabar.jpg" alt="dabar" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="delfin">
+            <img src="../background/cards/delfin.jpg" alt="delfin" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="delfin">
+            <img src="../background/cards/delfin.jpg" alt="delfin" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="divljaSvinja">
+            <img src="../background/cards/divljaSvinja.jpg" alt="divljaSvinja" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="divljaSvinja">
+            <img src="../background/cards/divljaSvinja.jpg" alt="divljaSvinja" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="galeb">
+            <img src="../background/cards/galeb.jpg" alt="galeb" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="galeb">
+            <img src="../background/cards/galeb.jpg" alt="galeb" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="geko">
+            <img src="../background/cards/geko.jpg" alt="geko" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="geko">
+            <img src="../background/cards/geko.jpg" alt="geko" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="golub">
+            <img src="../background/cards/golub.jpg" alt="golub" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+        <div class="kartice" data-framework="golub">
+            <img src="../background/cards/golub.jpg" alt="golub" class="prednjaStrana">
+            <img src="../background/guster.png" alt="guster" class="zadnjaStrana">
+        </div>
+    </section>
+    
+    <aside id="tabela">
+        <button id="dugmeLako">Lako</button>
+        <button id="dugmeSrednje">Srednje</button>
+        <button id="dugmeTesko">Tesko</button>
+        <button id="dugmeEkspert">Ekspert</button>
+        <table id="lista">
+            <tr>
+                <th id="mesto">Mesto</th>
+                <th id="korisnickoIme">Korisnicko ime</th>
+                <th id="vreme">Vreme</th>
+            </tr>
+        </table>
+    </aside>
+    
+    <script src="../engine/lako.js"></script>
+</body>
+</html>
